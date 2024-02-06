@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppAutores1_3.Views.PageInit"
+             Title="PageInit">
+
+    <VerticalStackLayout>
+
+
+        <Image
+            Source="autor.png"
+            SemanticProperties.Description="Cute dot net bot waving hi to you!"
+            HeightRequest="200"
+            HorizontalOptions="Center" />    
+
+                <Entry  x:Name="NomAutor" Placeholder="Nombre Del Autor" Keyboard="Text"/>
+
+                <Entry  x:Name="nacionalidad" Placeholder="apellidos" Keyboard="Text"/>
+
+                <Button x:Name="btnprocesar" Text="Procesar" Clicked="btnprocesar_Clicked" />
+           
+        
+    </VerticalStackLayout>    
+    
+</ContentPage>
