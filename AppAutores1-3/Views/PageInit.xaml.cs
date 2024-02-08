@@ -5,9 +5,9 @@ public partial class PageInit : ContentPage
     readonly Controllers.AuthorControllers authorDB;
 
     public PageInit()
-	{		
+    {
         InitializeComponent();
-        
+
     }
 
     private async void btnprocesar_Clicked(object sender, EventArgs e)
